@@ -1,0 +1,104 @@
+[[table_of_contents]]    
+label = "Prologue" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:1-133" 
+ref = "vv. 1-133"
+
+[[table_of_contents]]
+label = "*Parodos*" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:144-200" 
+ref = "vv. 144-200"
+
+[[table_of_contents]]
+label = "First episode" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:201-595" 
+ref = "vv. 201-595"
+
+[[table_of_contents]]
+label = "First *stasimon*" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:596-645" 
+ref = "vv. 596-645"
+
+[[table_of_contents]]
+label = "Second episode" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:646-692" 
+ref = "vv. 646-692"
+
+[[table_of_contents]]
+label = "Second *stasimon*" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:693-718" 
+ref = "vv. 693-718"
+
+[[table_of_contents]]
+label = "Third episode" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:719-865" 
+ref = "vv. 719-865"
+
+[[table_of_contents]]
+label = "*Epiparodos* and *kommos*" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:866-973" 
+ref = "vv. 866-973"
+
+[[table_of_contents]]
+label = "Fourth episode" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:974-1184" 
+ref = "vv. 974-1184"
+
+[[table_of_contents]]
+label = "Third *stasimon*" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:1185-1222" 
+ref = "vv. 1185-1222"
+
+[[table_of_contents]]
+label = "*Exodos*" 
+urn = "urn:cts:greekLit:tlg0011.tlg003:1223-1420" 
+ref = "vv. 1223-1420"
+
+[[editions]]
+description = "Sophocles' *Ajax*, edited by Hugh Lloyd-Jones"
+filename = "tlg0011.tlg003.ajmc-lj.xml"
+label = "Lloyd-Jones (1994)"
+urn = "urn:cts:greekLit:tlg0011.tlg003.ajmc-lj"
+
+[[editions]]
+description = "Sophoclis Aiax: commentario perpetuo illustravit Christ. Augustus Lobeck. Editio Tertia. Edited by Francis Storr"
+filename = "tlg0011.tlg003.1st1K-grc1.xml"
+label = "Lobeck (1866)"
+urn = "urn:cts:greekLit:tlg0011.tlg003.ajmc-lobeck"
+
+[[editions]]
+description = "Sophoclis Fabulae: recognovit brevique adnotatione critica instruxit, edited by A. C. Pearson"
+filename = "tlg0011.tlg003.opp-grc1.xml"
+label = "Pearson (1924)"
+urn = "urn:cts:greekLit:tlg0011.tlg003.ajmc-pearson"
+
+[[commentaries]]
+ajmc_id = "cu31924087948174"
+zotero_id = "3PSZEAK5"
+
+[[commentaries]]
+ajmc_id = "Hermann1851"
+zotero_id = "JPALGCFZ"
+
+[[commentaries]]
+ajmc_id = "sophoclesplaysa05campgoog"
+zotero_id = "YZ347EC5"
+
+[[commentaries]]
+ajmc_id = "bsb10234118"
+zotero_id = "JTP6DUJI"
+
+[[commentaries]]
+ajmc_id = "lestragdiesdeso00tourgoog"
+zotero_id = "QNJZHKEP"
+
+[[commentaries]]
+ajmc_id = "Wecklein1894"
+zotero_id = "SGQ3ESQS"
+
+[[commentaries]]
+ajmc_id = "SchneidewinNauckRadermacher1913"
+zotero_id = "K2HAGNCQ"
+
+[[commentaries]]
+ajmc_id = "sophokle1v3soph"
+zotero_id = "Z3E52E63"
