@@ -57,11 +57,11 @@
 
 		<p>{metadata.description}</p>
 	</div>
-	<div class="grid grid-cols-10 gap-x-8 gap-y-2">
-		<section class="col-span-3">
+	<div class="grid grid-cols-10 gap-x-8 gap-y-2 h-screen max-h-[64rem]">
+		<section class="col-span-2">
 			<Navigation {passages} currentPassageUrn={currentPassage.urn} />
 		</section>
-		<section class="col-span-4 overflow-y-scroll max-h-screen">
+		<section class="col-span-5 overflow-y-scroll">
 			{#each textContainers as textContainer}
 				<CitableTextContainer
 					{textContainer}
