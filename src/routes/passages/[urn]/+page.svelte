@@ -1,5 +1,7 @@
 <script lang="ts">
 	import type { Comment, PassageConfig } from '$lib/types';
+
+	import { marked } from 'marked';
 	import CitableTextContainer from '$lib/components/CitableTextContainer.svelte';
 	import CollapsibleComment from '$lib/components/CollapsibleComment.svelte';
 	import CTS_URN from '$lib/cts_urn.js';
@@ -9,7 +11,7 @@
 
 	$: comments = data.comments as Comment[];
 	$: currentPassage = data.currentPassage as PassageConfig;
-	$: metadata = { title: 'title', description: 'description' };
+	$: metadata = data.metadata;
 	$: passages = data.passages as PassageConfig[];
 	$: textContainers = data.textContainers;
 	$: textElements = data.textElements;
@@ -49,13 +51,20 @@
 			document.getElementById(foundComment.citable_urn)?.scrollIntoView({ behavior: 'smooth' });
 		}
 	}
+
+	function stripMarkdown(s: string): string {
+		return s.replace(/_|\*/gi, '');
+	}
 </script>
 
+<svelte:head>
+	<title>{stripMarkdown(metadata.title)}</title>
+</svelte:head>
 <article class="mx-auto w-full p-8">
 	<div class="pb-8">
-		<h1 class="text-2xl font-bold">{metadata.title}</h1>
+		<h1 class="text-2xl font-bold">{@html marked(metadata.title)}</h1>
 
-		<p>{metadata.description}</p>
+		<p>{@html marked(metadata.description)}</p>
 	</div>
 	<div class="grid grid-cols-10 gap-x-8 gap-y-2 h-screen max-h-[64rem]">
 		<section class="col-span-2">

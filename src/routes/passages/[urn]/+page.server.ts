@@ -55,6 +55,7 @@ export const load = async ({ params: { urn = '' } }) => {
             ...passageInfo, ctsUrn: passageInfo.ctsUrn.toJSON()
         },
         editions: editions.map(e => ({ ...e, ctsUrn: e?.ctsUrn.toJSON() })),
+        metadata: { title: COMMENTARY_CONFIG.title, description: COMMENTARY_CONFIG.description },
         passages: passages.map(p => ({ ...p, ctsUrn: p?.ctsUrn.toJSON() })),
         textContainers,
         textElements
