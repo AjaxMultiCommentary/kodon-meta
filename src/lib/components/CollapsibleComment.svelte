@@ -38,6 +38,16 @@
 		{/if}
 	</div>
 	<div class="collapse-content float-right">
-		<p class="max-w-2xl text-sm text-gray-800">{@html comment.body}</p>
+		<p class="max-w-2xl text-sm text-gray-800 prose comment-body">{@html comment.body}</p>
 	</div>
 </div>
+
+<style lang="postcss">
+	.comment-body :global(a) {
+		@apply underline;
+	}
+
+	.comment-body :global(a:hover) {
+		@apply font-bold;
+	}
+</style>
