@@ -16,19 +16,10 @@ export type PassageConfig = {
 };
 
 export type Word = {
+    comments?: Comment[];
     offset: number;
     text: string;
     xml_id: string;
-};
-
-export type TextContainer = {
-    location: string[];
-    offset: number;
-    subtype: "line" | "paragraph";
-    text: string;
-    type: "text_container";
-    words: Word[];
-    urn: string;
 };
 
 export type TextElement = {
@@ -38,6 +29,18 @@ export type TextElement = {
     start_offset: number;
     subtype: string;
     type: "text_element";
+};
+
+export type TextContainer = {
+    comments?: Comment[];
+    location: string[];
+    offset: number;
+    subtype: "line" | "paragraph";
+    text: string;
+    type: "text_container";
+    words: Word[];
+    urn: string;
+    textElements?: TextElement[];
 };
 
 export type Author = {
@@ -65,13 +68,13 @@ export type Comment = {
     commentaryAttributes: any;
     content?: string;
     ctsUrn: any;
-    end_offset?: number;
+    end_offset?: string;
     image_paths: string | string[];
     isHighlighted?: boolean;
     lemma?: string;
     overlays: string | string[];
     page_ids: string | string[];
-    start_offset?: number;
+    start_offset?: string;
     transcript?: string;
     urn: string;
 };

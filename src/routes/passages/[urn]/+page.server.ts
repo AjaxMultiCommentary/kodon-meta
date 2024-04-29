@@ -43,22 +43,25 @@ export const load = async ({ params: { urn = '' } }) => {
         .map((l) => JSON.parse(l));
 
     const textContainers = getTextContainersForPassage(passageInfo, jsonl);
-    const textElements = getTextElementsForPassage(
-        textContainers.map((tc) => tc.offset),
-        jsonl
-    );
     const comments = getCommentsForPassage(passageInfo);
 
     return {
-        comments: comments.map(c => ({ ...c, ctsUrn: c?.ctsUrn.toJSON() })),
+        comments: comments.map((c) => ({ ...c, ctsUrn: c?.ctsUrn.toJSON() })),
         currentPassage: {
-            ...passageInfo, ctsUrn: passageInfo.ctsUrn.toJSON()
+            ...passageInfo,
+            ctsUrn: passageInfo.ctsUrn.toJSON()
         },
-        editions: editions.map(e => ({ ...e, ctsUrn: e?.ctsUrn.toJSON() })),
+        editions: editions.map((e) => ({ ...e, ctsUrn: e?.ctsUrn.toJSON() })),
         metadata: { title: COMMENTARY_CONFIG.title, description: COMMENTARY_CONFIG.description },
-        passages: passages.map(p => ({ ...p, ctsUrn: p?.ctsUrn.toJSON() })),
-        textContainers,
-        textElements
+        passages: passages.map((p) => ({ ...p, ctsUrn: p?.ctsUrn.toJSON() })),
+        textContainers: textContainers.map((tc) => ({
+            ...tc,
+            comments: comments.filter((c) =>
+                c?.ctsUrn.integerCitations[0].every(
+                    (value, index) => value === new CTS_URN(tc.urn).integerCitations[0][index]
+                )
+            ).map(c => ({ ...c, ctsUrn: c?.ctsUrn.toJSON() }))
+        }))
     };
 };
 
@@ -85,17 +88,6 @@ function getCommentsForPassage(passageInfo: PassageConfig) {
     });
 }
 
-function getTextElementsForPassage(
-    offsets: number[],
-    jsonl: (TextContainer | TextElement)[]
-): TextElement[] {
-    const textElements = jsonl.filter(
-        (l) => l.type === 'text_element' && offsets.includes(l.line_offset)
-    ) as TextElement[];
-
-    return textElements;
-}
-
 function getTextContainersForPassage(
     passageInfo: PassageConfig,
     jsonl: (TextContainer | TextElement)[]
@@ -103,8 +95,15 @@ function getTextContainersForPassage(
     const textContainers = jsonl.filter(
         (l) => l.type === 'text_container' && passageContainsLocation(l.location, passageInfo)
     ) as TextContainer[];
+    const textContainerOffsets = textContainers.map((tc) => tc.offset);
+    const textElements = jsonl.filter(
+        (l) => l.type === 'text_element' && textContainerOffsets.includes(l.line_offset)
+    ) as TextElement[];
 
-    return textContainers;
+    return textContainers.map((tc) => ({
+        ...tc,
+        textElements: textElements.filter((elem) => elem.line_offset === tc.offset)
+    }));
 }
 
 function getPassage(passages: PassageConfig[], passageStart: number[]): PassageConfig | undefined {
