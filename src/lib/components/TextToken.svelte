@@ -3,8 +3,6 @@
 
 	export let token: Word;
 
-	$: console.log(token.comments);
-
 	function getClass(t: Word) {
 		return `mr-2 comment-box-shadow comments-${Math.min(t.comments?.length || 0, 10)}`;
 	}
