@@ -14,13 +14,48 @@
 		return {
 			...w,
 			comments: textContainer.comments?.filter((c) => {
-				return (
-					parseInt(c.start_offset || '') === w.offset ||
-					(c.start_offset &&
-						parseInt(c.start_offset || '') < w.offset &&
-						c.end_offset &&
-						parseInt(c.end_offset || '') < w.offset + w.text.length)
-				);
+				// comment only applies to this container
+				if (c.ctsUrn.integerCitations.length === 1) {
+					return (
+						parseInt(c.start_offset || '') === w.offset ||
+						(c.start_offset &&
+							parseInt(c.start_offset || '') < w.offset &&
+							c.end_offset &&
+							parseInt(c.end_offset || '') < w.offset + w.text.length)
+					);
+				}
+
+				// comment starts on this container
+				if (
+					c.ctsUrn.integerCitations[0].every(
+						(value: number, index: number) => ctsUrn.integerCitations[0][index] === value
+					)
+				) {
+					return parseInt(c.start_offset || '') <= w.offset;
+				}
+
+				// comment fully contains this container
+				if (
+					c.ctsUrn.integerCitations[0].every(
+						(value: number, index: number) => value <= ctsUrn.integerCitations[0][index]
+					) &&
+					c.ctsUrn.integerCitations[1].every(
+						(value: number, index: number) => value >= ctsUrn.integerCitations[0][index]
+					)
+				) {
+					return true;
+				}
+
+				// comment ends on this container
+				if (
+					c.ctsUrn.integerCitations[1].every(
+						(value: number, index: number) => ctsUrn.integerCitations[0][index] === value
+					)
+				) {
+					return parseInt(c.end_offset || '') >= w.offset;
+				}
+
+				return false;
 			})
 		};
 	});
