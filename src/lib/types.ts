@@ -1,4 +1,4 @@
-import type CTS_URN from "./cts_urn";
+import type CTS_URN from './cts_urn';
 
 export type EditionConfig = {
     ctsUrn: CTS_URN;
@@ -28,16 +28,17 @@ export type TextElement = {
     line_offset: number;
     start_offset: number;
     subtype: string;
-    type: "text_element";
+    type: 'text_element';
 };
 
 export type TextContainer = {
     comments?: Comment[];
     location: string[];
     offset: number;
-    subtype: "line" | "paragraph";
+    speaker?: string | null;
+    subtype: 'line' | 'paragraph';
     text: string;
-    type: "text_container";
+    type: 'text_container';
     words: Word[];
     urn: string;
     textElements?: TextElement[];

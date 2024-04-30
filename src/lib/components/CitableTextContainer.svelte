@@ -2,6 +2,7 @@
 	import type { TextContainer } from '$lib/types';
 	import { createEventDispatcher } from 'svelte';
 	import CTS_URN from '$lib/cts_urn';
+	import Speaker from './Speaker.svelte';
 	import TextToken from './TextToken.svelte';
 
 	const dispatch = createEventDispatcher();
@@ -61,25 +62,30 @@
 	});
 </script>
 
-<div class="flex justify-between">
-	<p class="max-w-prose indent-hanging">
-		{#each tokens as token (token.xml_id)}
-			<TextToken {token} />
-		{/each}
-	</p>
-	{#if commentUrns.length > 0}
-		<a
-			href={`?highlight=${textContainer.urn}`}
-			role="button"
-			class="base-content hover:opacity-70 cursor-pointer w-12 text-center inline-block bg-secondary"
-			on:click={() => dispatch('highlightComments', commentUrns)}
-			data-citation={ctsUrn.citations[0]}>{ctsUrn.citations[0]}</a
-		>
-	{:else}
-		<span class="base-content cursor-pointer w-12 text-center inline-block"
-			>{ctsUrn.citations.join('.')}</span
-		>
+<div>
+	{#if textContainer.speaker}
+		<Speaker name={textContainer.speaker} />
 	{/if}
+	<div class="flex justify-between">
+		<p class="max-w-prose indent-hanging">
+			{#each tokens as token (token.xml_id)}
+				<TextToken {token} />
+			{/each}
+		</p>
+		{#if commentUrns.length > 0}
+			<a
+				href={`?highlight=${textContainer.urn}`}
+				role="button"
+				class="base-content hover:opacity-70 cursor-pointer w-12 text-center inline-block bg-secondary"
+				on:click={() => dispatch('highlightComments', commentUrns)}
+				data-citation={ctsUrn.citations[0]}>{ctsUrn.citations[0]}</a
+			>
+		{:else}
+			<span class="base-content cursor-pointer w-12 text-center inline-block"
+				>{ctsUrn.citations.join('.')}</span
+			>
+		{/if}
+	</div>
 </div>
 
 <style lang="postcss">

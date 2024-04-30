@@ -42,7 +42,7 @@ export const load = async ({ params: { urn = '' } }) => {
         .filter((l) => l !== '')
         .map((l) => JSON.parse(l));
 
-    const textContainers = getTextContainersForPassage(passageInfo, jsonl);
+    const textContainers = getTextContainersForPassage(passageInfo, jsonl) as TextContainer[];
     const comments = getCommentsForPassage(passageInfo);
 
     return {
@@ -111,9 +111,21 @@ function getTextContainersForPassage(
     const textElements = jsonl.filter(
         (l) => l.type === 'text_element' && textContainerOffsets.includes(l.line_offset)
     ) as TextElement[];
+    const personaeLoquentes = textElements.filter(te => te.subtype === "speaker").reduce((acc, el) => {
+        const currentSpeaker = el.attributes.name;
+
+        if (currentSpeaker !== acc.previousSpeaker) {
+            acc[el.line_offset] = currentSpeaker;
+
+            acc.previousSpeaker = currentSpeaker;
+        }
+
+        return acc;
+    }, { previousSpeaker: null } as any);
 
     return textContainers.map((tc) => ({
         ...tc,
+        speaker: personaeLoquentes[tc.offset] ? personaeLoquentes[tc.offset] : null,
         textElements: textElements.filter((elem) => elem.line_offset === tc.offset)
     }));
 }

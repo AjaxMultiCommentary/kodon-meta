@@ -60,7 +60,7 @@
 		<section class="col-span-2">
 			<Navigation {passages} currentPassageUrn={currentPassage.urn} />
 		</section>
-		<section class="col-span-5 overflow-y-scroll">
+		<section class="col-span-5 overflow-y-scroll -mt-4">
 			{#each textContainers as textContainer}
 				<CitableTextContainer
 					{textContainer}

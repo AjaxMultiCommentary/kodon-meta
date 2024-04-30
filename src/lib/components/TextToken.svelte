@@ -4,15 +4,16 @@
 	export let token: Word;
 
 	function getClass(t: Word) {
-		return `mr-2 comment-box-shadow comments-${Math.min(t.comments?.length || 0, 10)}`;
+		return `comment-box-shadow comments-${Math.min(t.comments?.length || 0, 10)}`;
 	}
 </script>
 
 <span
 	id={token.xml_id}
 	class={getClass(token)}
-	class:cursor-pointer={token.comments?.length || 0 > 0}>{token.text}</span
->
+	class:cursor-pointer={token.comments?.length || 0 > 0}
+	>{token.text + ' '}
+</span>
 
 <style lang="postcss">
 	.addition::before {
