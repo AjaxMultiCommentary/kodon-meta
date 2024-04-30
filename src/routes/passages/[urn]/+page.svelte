@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Comment, PassageConfig } from '$lib/types';
+	import type { Comment, PassageConfig, TextContainer } from '$lib/types';
 
 	import { marked } from 'marked';
 	import CitableTextContainer from '$lib/components/CitableTextContainer.svelte';
@@ -13,7 +13,7 @@
 	$: currentPassage = data.currentPassage as PassageConfig;
 	$: metadata = data.metadata;
 	$: passages = data.passages as PassageConfig[];
-	$: textContainers = data.textContainers;
+	$: textContainers = data.textContainers as TextContainer[];
 
 	function highlightComments(e: CustomEvent) {
 		const commentsToHighlight = e.detail;
@@ -62,11 +62,7 @@
 		</section>
 		<section class="col-span-5 overflow-y-scroll -mt-4">
 			{#each textContainers as textContainer}
-				<CitableTextContainer
-					{textContainer}
-					commentUrns={textContainer.comments.map((c) => c.urn)}
-					on:highlightComments={highlightComments}
-				/>
+				<CitableTextContainer {textContainer} on:highlightComments={highlightComments} />
 			{/each}
 		</section>
 		<section class="overflow-y-scroll col-span-3 max-h-screen">

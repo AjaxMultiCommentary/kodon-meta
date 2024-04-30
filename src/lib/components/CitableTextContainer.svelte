@@ -7,10 +7,17 @@
 
 	const dispatch = createEventDispatcher();
 
-	export let commentUrns: string[];
 	export let textContainer: TextContainer;
 
 	$: ctsUrn = new CTS_URN(textContainer.urn);
+	$: wholeLineComments =
+		textContainer.comments
+			?.filter((c) => !c.ctsUrn.tokens.some((t: string | undefined) => Boolean(t)))
+			.filter((c) =>
+				c.ctsUrn.integerCitations[0].every(
+					(value: number, index: number) => ctsUrn.integerCitations[0][index] === value
+				)
+			) || [];
 	$: tokens = textContainer.words.map((w) => {
 		return {
 			...w,
@@ -72,18 +79,20 @@
 				<TextToken {token} />
 			{/each}
 		</p>
-		{#if commentUrns.length > 0}
+		{#if wholeLineComments.length > 0}
 			<a
 				href={`?highlight=${textContainer.urn}`}
 				role="button"
-				class="base-content hover:opacity-70 cursor-pointer w-12 text-center inline-block bg-secondary"
-				on:click={() => dispatch('highlightComments', commentUrns)}
+				class={`base-content hover:opacity-70 cursor-pointer w-12 text-center inline-block comment-box-shadow comments-${wholeLineComments.length}`}
+				on:click={() =>
+					dispatch(
+						'highlightComments',
+						wholeLineComments.map((c) => c.urn)
+					)}
 				data-citation={ctsUrn.citations[0]}>{ctsUrn.citations[0]}</a
 			>
 		{:else}
-			<span class="base-content cursor-pointer w-12 text-center inline-block"
-				>{ctsUrn.citations.join('.')}</span
-			>
+			<span class="base-content w-12 text-center inline-block">{ctsUrn.citations.join('.')}</span>
 		{/if}
 	</div>
 </div>
@@ -91,5 +100,44 @@
 <style lang="postcss">
 	.indent-hanging {
 		text-indent: 2.3rem hanging;
+	}
+	.comment-box-shadow.comments-1 {
+		background-color: rgb(99, 162, 187, 0.2);
+	}
+
+	.comment-box-shadow.comments-2 {
+		background-color: rgba(99, 162, 187, 0.4);
+	}
+
+	.comment-box-shadow.comments-3 {
+		background-color: rgba(99, 162, 187, 0.6);
+	}
+
+	.comment-box-shadow.comments-4 {
+		background-color: rgba(99, 162, 187, 0.8);
+	}
+
+	.comment-box-shadow.comments-5 {
+		background-color: rgba(99, 162, 187, 0.9);
+	}
+
+	.comment-box-shadow.comments-6 {
+		background-color: rgba(99, 162, 187, 1);
+	}
+
+	.comment-box-shadow.comments-7 {
+		background-color: rgba(67, 121, 142, 0.8);
+	}
+
+	.comment-box-shadow.comments-8 {
+		background-color: rgba(67, 121, 142, 0.9);
+	}
+
+	.comment-box-shadow.comments-9 {
+		background-color: rgba(67, 121, 142, 1);
+	}
+
+	.comment-box-shadow.comments-10 {
+		background-color: rgb(67, 121, 142, 1);
 	}
 </style>
