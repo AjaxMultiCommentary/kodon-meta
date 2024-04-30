@@ -14,16 +14,6 @@
 	$: metadata = data.metadata;
 	$: passages = data.passages as PassageConfig[];
 	$: textContainers = data.textContainers;
-	$: textElements = data.textElements;
-
-	function getCommentsForLine(urn: string) {
-		const ctsUrn = new CTS_URN(urn);
-		return comments.filter((c) => {
-			return c.ctsUrn?.integerCitations[0].every(
-				(value: number, index: number) => value === ctsUrn.integerCitations[0][index]
-			);
-		});
-	}
 
 	function highlightComments(e: CustomEvent) {
 		const commentsToHighlight = e.detail;
@@ -47,7 +37,7 @@
 			};
 		});
 
-		if (foundComment) {
+		if (foundComment && foundComment.citable_urn) {
 			document.getElementById(foundComment.citable_urn)?.scrollIntoView({ behavior: 'smooth' });
 		}
 	}
@@ -74,7 +64,7 @@
 			{#each textContainers as textContainer}
 				<CitableTextContainer
 					{textContainer}
-					commentUrns={getCommentsForLine(textContainer.urn).map((c) => c.urn)}
+					commentUrns={textContainer.comments.map((c) => c.urn)}
 					on:highlightComments={highlightComments}
 				/>
 			{/each}

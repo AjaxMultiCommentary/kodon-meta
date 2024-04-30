@@ -63,17 +63,17 @@ export type Tag = {
 
 export type Comment = {
     attributes?: any;
-    body: string;
-    citable_urn: string;
-    commentaryAttributes: any;
+    body?: string | Promise<string>;
+    citable_urn?: string;
+    commentaryAttributes?: any;
     content?: string;
     ctsUrn: any;
     end_offset?: string;
-    image_paths: string | string[];
+    image_paths?: string | string[];
     isHighlighted?: boolean;
     lemma?: string;
-    overlays: string | string[];
-    page_ids: string | string[];
+    overlays?: string | string[];
+    page_ids?: string | string[];
     start_offset?: string;
     transcript?: string;
     urn: string;

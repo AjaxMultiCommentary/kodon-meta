@@ -7,18 +7,6 @@ const COMMENTARIES_DIR = 'commentaries';
 const GLOSSA_PROPERTY_REGEX = /^:(?<name>[^:\n]+):\s+(?<value>.*)(?:\n|$)/;
 const URN_REGEX = /\@(?<urn>[^\n]+)/;
 
-type GlossaProperties = {
-    attributes?: any;
-    content?: string;
-    lemma?: string;
-    end_offset?: number;
-    start_offset?: number;
-    citable_urn?: string;
-    image_paths?: string;
-    overlays?: string;
-    page_ids?: string;
-};
-
 export function readCommentaryFiles() {
     const files = fs.readdirSync(COMMENTARIES_DIR);
 
@@ -33,7 +21,7 @@ export function readCommentaryFiles() {
             if (match?.groups?.urn) {
                 const urn = match.groups.urn;
                 let withProperties = glossa.replace(URN_REGEX, "").trim();
-                const glossaProperties: GlossaProperties = {};
+                const glossaProperties = {};
 
                 let propMatch = withProperties.match(GLOSSA_PROPERTY_REGEX);
 

@@ -72,9 +72,7 @@ export const load = async ({ params: { urn = '' } }) => {
                         (value, index) => value <= textContainerUrn.integerCitations[0][index]
                     ) && c?.ctsUrn.integerCitations[c?.ctsUrn.integerCitations.length - 1].every(
                         (value, index) => value >= textContainerUrn.integerCitations[textContainerUrn.integerCitations.length - 1][index]));
-            }
-
-            ).map(c => ({ ...c, ctsUrn: c?.ctsUrn.toJSON() }))
+            }).map(c => ({ ...c, ctsUrn: c?.ctsUrn.toJSON() }))
         }))
     };
 };
