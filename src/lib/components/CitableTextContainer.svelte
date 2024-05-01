@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { TextContainer } from '$lib/types';
+	import type { Comment, TextContainer, Word } from '$lib/types';
 	import { createEventDispatcher } from 'svelte';
 	import CTS_URN from '$lib/cts_urn';
 	import Speaker from './Speaker.svelte';
@@ -8,6 +8,29 @@
 	const dispatch = createEventDispatcher();
 
 	export let textContainer: TextContainer;
+
+	function withinOne(i: number, j: number) {
+		return i === j || i === j + 1 || i === j + 1;
+	}
+
+	function isCommentContainedByTextContainer(comment: Comment) {
+		return (
+			comment.ctsUrn.integerCitations.length === 1 ||
+			comment.ctsUrn.integerCitations[0].join('') === comment.ctsUrn.integerCitations[1].join('')
+		);
+	}
+
+	function tokenTestForCommentContainedByTestContainer(comment: Comment, token: Word) {
+		const startOffsetInt = parseInt(comment.start_offset || '');
+		const endOffsetInt = parseInt(comment.end_offset || '');
+
+		return (
+			startOffsetInt === token.offset ||
+			(withinOne(startOffsetInt, token.offset) &&
+				withinOne(endOffsetInt, token.offset + token.text.length) &&
+				(comment.lemma || '').indexOf(token.text) > -1)
+		);
+	}
 
 	$: ctsUrn = new CTS_URN(textContainer.urn);
 	$: wholeLineComments =
@@ -23,22 +46,12 @@
 			...w,
 			comments: textContainer.comments?.filter((c) => {
 				// comment only applies to this container
-				if (c.ctsUrn.integerCitations.length === 1) {
-					return (
-						parseInt(c.start_offset || '') === w.offset ||
-						(c.start_offset &&
-							parseInt(c.start_offset || '') < w.offset &&
-							c.end_offset &&
-							parseInt(c.end_offset || '') < w.offset + w.text.length)
-					);
+				if (isCommentContainedByTextContainer(c)) {
+					tokenTestForCommentContainedByTestContainer(c, w);
 				}
 
 				// comment starts on this container
-				if (
-					c.ctsUrn.integerCitations[0].every(
-						(value: number, index: number) => ctsUrn.integerCitations[0][index] === value
-					)
-				) {
+				if (ctsUrn.hasEqualStart(c.ctsUrn)) {
 					return parseInt(c.start_offset || '') <= w.offset;
 				}
 

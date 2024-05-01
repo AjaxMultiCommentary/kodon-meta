@@ -60,34 +60,30 @@ export const load = async ({ params: { urn = '' } }) => {
                 const textContainerUrn = new CTS_URN(tc.urn);
 
                 // comment starts on this textContainer
-                return c?.ctsUrn.integerCitations[0].every(
-                    (value, index) => value === textContainerUrn.integerCitations[0][index]
-                )
+                return c?.ctsUrn.hasEqualStart(textContainerUrn)
                     // comment ends on this textContainer
-                    || c?.ctsUrn.integerCitations[c?.ctsUrn.integerCitations.length - 1].every(
-                        (value, index) => value === textContainerUrn.integerCitations[textContainerUrn.integerCitations.length - 1][index]
-                    )
+                    || c?.ctsUrn.hasEqualEnd(textContainerUrn)
                     // textContainer is contained by this comment
-                    || (c?.ctsUrn.integerCitations[0].every(
-                        (value, index) => value <= textContainerUrn.integerCitations[0][index]
-                    ) && c?.ctsUrn.integerCitations[c?.ctsUrn.integerCitations.length - 1].every(
-                        (value, index) => value >= textContainerUrn.integerCitations[textContainerUrn.integerCitations.length - 1][index]));
+                    || c?.ctsUrn.contains(textContainerUrn);
             }).map(c => ({ ...c, ctsUrn: c?.ctsUrn.toJSON() }))
         }))
     };
 };
 
 function getCommentsForPassage(passageInfo: PassageConfig) {
-    const passageStart = passageInfo.ctsUrn.integerCitations[0];
-    const passageEnd = passageInfo.ctsUrn.integerCitations[1];
-
     return ALL_COMMENTS.filter(
         (c) =>
-            c &&
-            c.ctsUrn.integerCitations[0].every((value, index) => value >= passageStart[index]) &&
-            c.ctsUrn.integerCitations[0].every((value, index) => value <= passageEnd[index])
+            c && passageInfo.ctsUrn.contains(c.ctsUrn)
     ).sort((cA, cB) => {
         if (cA?.ctsUrn.integerCitations[0][0] === cB?.ctsUrn.integerCitations[0][0]) {
+            if (cA?.ctsUrn.tokens.every(t => typeof t === 'undefined')) {
+                return -1;
+            }
+
+            if (cB?.ctsUrn.tokens.every(t => typeof t === "undefined")) {
+                return 1;
+            }
+
             return 0;
         }
 

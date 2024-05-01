@@ -32,9 +32,41 @@ export default class CTS_URN {
     }
 
     setPassages(passageComponent: string) {
-        this.citations = passageComponent.split('-').map(p => p.split('@')[0]);
+        this.citations = passageComponent.split('-').map((p) => p.split('@')[0]);
         this.integerCitations = this.citations.map(citationToInteger);
-        this.tokens = passageComponent.split('-').map(p => p.split('@')[1]);
+        this.tokens = passageComponent.split('-').map((p) => p.split('@')[1]);
+    }
+
+    contains(ctsUrn: CTS_URN) {
+        return (
+            (this.integerCitations[0].every(
+                (value, index) => value <= ctsUrn.integerCitations[0][index]
+            ) && this.integerCitations[this.integerCitations.length - 1].every(
+                (value, index) => value >= ctsUrn.integerCitations[ctsUrn.integerCitations.length - 1][index]))
+        );
+    }
+
+    isEqual(ctsUrn: CTS_URN) {
+        return (
+            this.integerCitations[0].every(
+                (value: number, index: number) => value === ctsUrn.integerCitations[0][index]
+            ) &&
+            this.integerCitations[1].every(
+                (value: number, index: number) => value === ctsUrn.integerCitations[1][index]
+            )
+        );
+    }
+
+    hasEqualEnd(ctsUrn: CTS_URN) {
+        return this.integerCitations[this.integerCitations.length - 1].every(
+            (value, index) => value === ctsUrn.integerCitations[ctsUrn.integerCitations.length - 1][index]
+        );
+    }
+
+    hasEqualStart(ctsUrn: CTS_URN) {
+        return this.integerCitations[0].every(
+            (value: number, index: number) => ctsUrn.integerCitations[0][index] === value
+        );
     }
 
     toJSON() {
