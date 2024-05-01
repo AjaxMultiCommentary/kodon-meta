@@ -80,7 +80,8 @@ export default class CTS_URN {
             passageComponent: this.passageComponent,
             citations: this.citations,
             integerCitations: this.integerCitations,
-            tokens: this.tokens
+            tokens: this.tokens,
+            __urn: this.__urn
         };
     }
 

@@ -6,13 +6,20 @@
 	function getClass(t: Word) {
 		return `comment-box-shadow comments-${Math.min(t.comments?.length || 0, 10)}`;
 	}
+
+	function tokenTitleText(t: Word) {
+		const commentsLength = t.comments?.length || 0;
+
+		return `${commentsLength} ${commentsLength === 1 ? 'gloss' : 'glosses'} on this lemma`;
+	}
 </script>
 
 <span
 	id={token.xml_id}
 	class={getClass(token)}
 	class:cursor-pointer={token.comments?.length || 0 > 0}
-	>{token.text + ' '}
+	title={tokenTitleText(token)}
+	>{token.text}{' '}
 </span>
 
 <style lang="postcss">

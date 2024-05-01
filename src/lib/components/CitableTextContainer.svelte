@@ -9,10 +9,6 @@
 
 	export let textContainer: TextContainer;
 
-	function withinOne(i: number, j: number) {
-		return i === j || i === j + 1 || i === j + 1;
-	}
-
 	function isCommentContainedByTextContainer(comment: Comment) {
 		return (
 			comment.ctsUrn.integerCitations.length === 1 ||
@@ -26,9 +22,7 @@
 
 		return (
 			startOffsetInt === token.offset ||
-			(withinOne(startOffsetInt, token.offset) &&
-				withinOne(endOffsetInt, token.offset + token.text.length) &&
-				(comment.lemma || '').indexOf(token.text) > -1)
+			(startOffsetInt <= token.offset && endOffsetInt >= token.offset + token.text.length)
 		);
 	}
 
@@ -36,48 +30,36 @@
 	$: wholeLineComments =
 		textContainer.comments
 			?.filter((c) => !c.ctsUrn.tokens.some((t: string | undefined) => Boolean(t)))
-			.filter((c) =>
-				c.ctsUrn.integerCitations[0].every(
-					(value: number, index: number) => ctsUrn.integerCitations[0][index] === value
-				)
-			) || [];
+			.filter((c) => ctsUrn.hasEqualStart(c.ctsUrn)) || [];
 	$: tokens = textContainer.words.map((w) => {
 		return {
 			...w,
-			comments: textContainer.comments?.filter((c) => {
-				// comment only applies to this container
-				if (isCommentContainedByTextContainer(c)) {
-					tokenTestForCommentContainedByTestContainer(c, w);
-				}
+			comments: textContainer.comments
+				?.filter((c) => c.ctsUrn.tokens.some((t: string | undefined) => Boolean(t)))
+				.filter((c) => {
+					const commentUrn = new CTS_URN(c.ctsUrn.__urn);
+					// comment only applies to this container
+					if (isCommentContainedByTextContainer(c)) {
+						return tokenTestForCommentContainedByTestContainer(c, w);
+					}
 
-				// comment starts on this container
-				if (ctsUrn.hasEqualStart(c.ctsUrn)) {
-					return parseInt(c.start_offset || '') <= w.offset;
-				}
+					// comment starts on this container
+					if (ctsUrn.hasEqualStart(c.ctsUrn)) {
+						return parseInt(c.start_offset || '') <= w.offset;
+					}
 
-				// comment fully contains this container
-				if (
-					c.ctsUrn.integerCitations[0].every(
-						(value: number, index: number) => value <= ctsUrn.integerCitations[0][index]
-					) &&
-					c.ctsUrn.integerCitations[1].every(
-						(value: number, index: number) => value >= ctsUrn.integerCitations[0][index]
-					)
-				) {
-					return true;
-				}
+					// comment fully contains this container
+					if (commentUrn.contains(ctsUrn)) {
+						return true;
+					}
 
-				// comment ends on this container
-				if (
-					c.ctsUrn.integerCitations[1].every(
-						(value: number, index: number) => ctsUrn.integerCitations[0][index] === value
-					)
-				) {
-					return parseInt(c.end_offset || '') >= w.offset;
-				}
+					// comment ends on this container
+					if (ctsUrn.hasEqualEnd(c.ctsUrn)) {
+						return parseInt(c.end_offset || '') >= w.offset;
+					}
 
-				return false;
-			})
+					return false;
+				})
 		};
 	});
 </script>
