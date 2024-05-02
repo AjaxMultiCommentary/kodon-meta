@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { Word } from '$lib/types.js';
 
+	import { createEventDispatcher } from 'svelte';
+
 	export let token: Word;
+
+	const dispatch = createEventDispatcher();
 
 	function getClass(t: Word) {
 		return `comment-box-shadow comments-${Math.min(t.comments?.length || 0, 10)}`;
@@ -14,13 +18,28 @@
 	}
 </script>
 
-<span
+<a
 	id={token.xml_id}
 	class={getClass(token)}
 	class:cursor-pointer={token.comments?.length || 0 > 0}
+	role="button"
+	tabindex="0"
 	title={tokenTitleText(token)}
+	on:click={() =>
+		dispatch(
+			'highlightComments',
+			token.comments?.map((c) => c.citable_urn)
+		)}
+	on:keyup={(event) => {
+		if (event.key === 'Enter') {
+			dispatch(
+				'highlightComments',
+				token.comments?.map((c) => c.citable_urn)
+			);
+		}
+	}}
 	>{token.text}{' '}
-</span>
+</a>
 
 <style lang="postcss">
 	.addition::before {

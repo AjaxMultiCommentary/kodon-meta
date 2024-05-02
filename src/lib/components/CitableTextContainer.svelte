@@ -71,7 +71,7 @@
 	<div class="flex justify-between">
 		<p class="max-w-prose indent-hanging">
 			{#each tokens as token (token.xml_id)}
-				<TextToken {token} />
+				<TextToken {token} on:highlightComments />
 			{/each}
 		</p>
 		{#if wholeLineComments.length > 0}
@@ -82,7 +82,7 @@
 				on:click={() =>
 					dispatch(
 						'highlightComments',
-						wholeLineComments.map((c) => c.urn)
+						wholeLineComments.map((c) => c.citable_urn)
 					)}
 				data-citation={ctsUrn.citations[0]}>{ctsUrn.citations[0]}</a
 			>

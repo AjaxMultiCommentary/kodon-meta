@@ -4,7 +4,6 @@
 	import { marked } from 'marked';
 	import CitableTextContainer from '$lib/components/CitableTextContainer.svelte';
 	import CollapsibleComment from '$lib/components/CollapsibleComment.svelte';
-	import CTS_URN from '$lib/cts_urn.js';
 	import Navigation from '$lib/components/Navigation.svelte';
 
 	export let data;
