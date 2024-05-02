@@ -76,14 +76,23 @@
 		</p>
 		{#if wholeLineComments.length > 0}
 			<a
-				href={`?highlight=${textContainer.urn}`}
+				href={`#${ctsUrn.citations[0]}`}
 				role="button"
 				class={`base-content hover:opacity-70 cursor-pointer w-12 text-center inline-block comment-box-shadow comments-${wholeLineComments.length}`}
+				tabindex="0"
 				on:click={() =>
 					dispatch(
 						'highlightComments',
 						wholeLineComments.map((c) => c.citable_urn)
 					)}
+				on:keyup={(event) => {
+					if (event.key === 'Enter') {
+						dispatch(
+							'highlightComments',
+							wholeLineComments.map((c) => c.citable_urn)
+						);
+					}
+				}}
 				data-citation={ctsUrn.citations[0]}>{ctsUrn.citations[0]}</a
 			>
 		{:else}

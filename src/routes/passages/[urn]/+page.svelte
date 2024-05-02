@@ -1,10 +1,12 @@
 <script lang="ts">
 	import type { Comment, PassageConfig, TextContainer } from '$lib/types';
 
-	import { marked } from 'marked';
+	import { page } from '$app/stores';
 	import CitableTextContainer from '$lib/components/CitableTextContainer.svelte';
 	import CollapsibleComment from '$lib/components/CollapsibleComment.svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
+	import { marked } from 'marked';
+	import { onMount } from 'svelte';
 
 	export let data;
 
@@ -14,12 +16,23 @@
 	$: passages = data.passages as PassageConfig[];
 	$: textContainers = data.textContainers as TextContainer[];
 
-	function highlightComments(e: CustomEvent) {
-		const commentsToHighlight = e.detail;
+	onMount(() => {
+		const commentToHighlight = $page.url.searchParams.get('gloss');
+
+		if (commentToHighlight) {
+			highlightComments([commentToHighlight]);
+		}
+	});
+
+	function handleHighlightComments(e: CustomEvent) {
+		highlightComments(e.detail);
+	}
+
+	function highlightComments(commentsToHighlight: string[]) {
 		let foundComment: Comment | undefined;
 
 		comments = comments.map((comment: Comment) => {
-			if (commentsToHighlight.includes(comment.citable_urn)) {
+			if (commentsToHighlight.includes(comment.citable_urn as string)) {
 				if (!foundComment) {
 					foundComment = comment;
 				}
@@ -61,7 +74,7 @@
 		</section>
 		<section class="col-span-5 overflow-y-scroll -mt-4">
 			{#each textContainers as textContainer}
-				<CitableTextContainer {textContainer} on:highlightComments={highlightComments} />
+				<CitableTextContainer {textContainer} on:highlightComments={handleHighlightComments} />
 			{/each}
 		</section>
 		<section class="overflow-y-scroll col-span-3 max-h-screen">

@@ -1,10 +1,11 @@
 <script lang="ts">
-	import type { Comment } from '$lib/types';
-	import CitableTextContainer from './CitableTextContainer.svelte';
+	import type { Author, Comment } from '$lib/types';
 
 	export let comment: Comment;
+	export let isOpen = false;
 
 	$: isHighlighted = comment.isHighlighted;
+	$: creators = comment.commentaryAttributes.creators as Author[];
 
 	function citation(comment: Comment) {
 		const { integerCitations } = comment.ctsUrn;
@@ -17,18 +18,36 @@
 
 		return `v. ${integerCitations[0].join('')}`;
 	}
+
+	function toggleDetails(e: Event) {
+		isOpen = !isOpen;
+	}
 </script>
 
 <div
 	class="border-2 collapse collapse-arrow rounded-sm mb-2"
 	class:border-secondary={isHighlighted}
+	class:collapse-open={isOpen || isHighlighted}
 	id={comment.citable_urn}
 >
-	<input type="checkbox" />
-	<div class="collapse-title">
+	<div
+		class="collapse-title"
+		role="button"
+		tabindex="0"
+		on:click={toggleDetails}
+		on:keyup={(event) => {
+			if (event.key === 'Enter') {
+				event.stopPropagation();
+				toggleDetails(event);
+			}
+		}}
+	>
 		<h3 class="text-sm font-bold text-primary-content cursor-pointer">
-			<span class="text-sm font-medium text-slate-600">{citation(comment)}</span>
-			{comment.commentaryAttributes?.creators.map((c) => c?.last_name).join(', ')}
+			<span class="text-sm font-medium text-slate-600"
+				><a data-sveltekit-reload href={`?gloss=${comment.citable_urn}`}>{citation(comment)}</a
+				></span
+			>
+			{creators.map((c) => c.last_name || c.name).join(', ')}
 			{comment.commentaryAttributes.publication_date}
 		</h3>
 		{#if comment.lemma}

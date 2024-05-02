@@ -48,6 +48,7 @@ export type Author = {
     email: string;
     name: string;
     username: string;
+    last_name?: string;
 };
 
 export type Card = {
