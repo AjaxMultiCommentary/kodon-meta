@@ -51,5 +51,8 @@
     "marked": "^12.0.1",
     "openseadragon": "^4.1.1",
     "smol-toml": "^1.1.4"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.9.5"
   }
 }
