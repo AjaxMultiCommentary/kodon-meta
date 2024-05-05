@@ -1,11 +1,13 @@
 <script lang="ts">
 	import type { Author, Comment } from '$lib/types';
+	import IIIFViewer from './IIIFViewer.svelte';
 
 	export let comment: Comment;
 	export let isOpen = false;
 
-	$: isHighlighted = comment.isHighlighted;
 	$: creators = comment.commentaryAttributes.creators as Author[];
+	$: isHighlighted = comment.isHighlighted;
+	$: showIIIFViewer = false;
 
 	function citation(comment: Comment) {
 		const { integerCitations } = comment.ctsUrn;
@@ -58,6 +60,19 @@
 	</div>
 	<div class="collapse-content float-right">
 		<p class="max-w-2xl text-sm text-gray-800 prose comment-body">{@html comment.body}</p>
+		<div class="flex justify-center mt-2">
+			{#if showIIIFViewer}
+				<IIIFViewer {comment} />
+			{:else}
+				<button
+					type="button"
+					class="btn btn-xs btn-outline btn-secondary"
+					on:click={() => (showIIIFViewer = true)}
+				>
+					Show page image
+				</button>
+			{/if}
+		</div>
 	</div>
 </div>
 

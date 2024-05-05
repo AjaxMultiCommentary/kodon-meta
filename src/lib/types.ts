@@ -71,11 +71,11 @@ export type Comment = {
     content?: string;
     ctsUrn: any;
     end_offset?: string;
-    image_paths?: string | string[];
+    image_paths?: string;
     isHighlighted?: boolean;
     lemma?: string;
-    overlays?: string | string[];
-    page_ids?: string | string[];
+    overlays?: string;
+    page_ids?: string;
     start_offset?: string;
     transcript?: string;
     urn: string;
