@@ -76,7 +76,7 @@
 		</p>
 		{#if wholeLineComments.length > 0}
 			<a
-				href={`#${ctsUrn.citations[0]}`}
+				href={'#'}
 				role="button"
 				class={`base-content hover:opacity-70 cursor-pointer w-12 text-center inline-block comment-box-shadow comments-${wholeLineComments.length}`}
 				tabindex="0"
