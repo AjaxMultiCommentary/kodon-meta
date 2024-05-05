@@ -7,6 +7,8 @@ import { parse as parseToml } from 'smol-toml';
 import CTS_URN from '$lib/cts_urn.js';
 import { readCommentaryFiles } from '$lib/commentaries/index.js';
 
+export const prerender = true;
+
 const _doc = fs.readFileSync('config/commentary.toml', 'utf-8');
 const COMMENTARY_CONFIG = parseURNs(parseToml(_doc));
 const EDITIONS_DIR = 'out/editions';

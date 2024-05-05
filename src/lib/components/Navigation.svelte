@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PassageConfig } from '$lib/types';
 
-	$: base = '';
+	import { base } from '$app/paths';
 
 	export let passages: PassageConfig[];
 	export let currentPassageUrn: string;
