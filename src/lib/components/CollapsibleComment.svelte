@@ -60,7 +60,7 @@
 	</div>
 	<div class="collapse-content float-right">
 		<p class="max-w-2xl text-sm text-gray-800 prose comment-body">{@html comment.body}</p>
-		<div class="flex justify-center mt-2">
+		<!-- <div class="flex justify-center mt-2">
 			{#if showIIIFViewer}
 				<IIIFViewer {comment} />
 			{:else}
@@ -72,7 +72,7 @@
 					Show page image
 				</button>
 			{/if}
-		</div>
+		</div> -->
 	</div>
 </div>
 
