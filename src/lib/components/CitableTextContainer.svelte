@@ -1,6 +1,10 @@
 <script lang="ts">
 	import type { Comment, TextContainer, Word } from '$lib/types';
+
+	// @ts-expect-error
+	import _ from 'lodash';
 	import { createEventDispatcher } from 'svelte';
+
 	import CTS_URN from '$lib/cts_urn';
 	import Speaker from './Speaker.svelte';
 	import TextToken from './TextToken.svelte';
@@ -9,6 +13,37 @@
 
 	export let textContainer: TextContainer;
 
+	function dropTokensUntilStartOfComment(tokens: Word[], comment: Comment) {
+		return _.dropWhile(
+			tokens,
+			(t: Word) =>
+				!(
+					t.text.indexOf(_.first(comment.ctsUrn.tokens)) > -1 &&
+					t.urn_index === _.first(comment.ctsUrn.tokenIndexes)
+				)
+		);
+	}
+
+	function takeTokensUntilEndOfComment(tokens: Word[], comment: Comment) {
+		const exclusive = _.takeWhile(
+			tokens,
+			(t: Word) =>
+				!(
+					t.text.indexOf(_.last(comment.ctsUrn.tokens)) > -1 &&
+					t.urn_index === _.last(comment.ctsUrn.tokenIndexes)
+				)
+		);
+
+		const excludedToken =
+			tokens.find(
+				(t) =>
+					t.text.indexOf(_.last(comment.ctsUrn.tokens)) > -1 &&
+					t.urn_index === _.last(comment.ctsUrn.tokenIndexes)
+			) || [];
+
+		return exclusive.concat(excludedToken);
+	}
+
 	function isCommentContainedByTextContainer(comment: Comment) {
 		return (
 			comment.ctsUrn.integerCitations.length === 1 ||
@@ -16,13 +51,32 @@
 		);
 	}
 
-	function tokenTestForCommentContainedByTestContainer(comment: Comment, token: Word) {
-		const startOffsetInt = parseInt(comment.start_offset || '');
-		const endOffsetInt = parseInt(comment.end_offset || '');
+	function tokenTestForCommentContainedByTextContainer(
+		comment: Comment,
+		token: Word,
+		tokens: Word[]
+	) {
+		if (token.urn_index > 0) {
+			const withoutLeadingTokens = dropTokensUntilStartOfComment(tokens, comment);
+			const availableTokens = takeTokensUntilEndOfComment(withoutLeadingTokens, comment);
 
-		return (
-			startOffsetInt === token.offset ||
-			(startOffsetInt <= token.offset && endOffsetInt >= token.offset + token.text.length)
+			return availableTokens.find((t: Word) => t.xml_id === token.xml_id);
+		}
+	}
+
+	function tokenTestForCommentEndingInTextContainer(comment: Comment, token: Word, tokens: Word[]) {
+		return takeTokensUntilEndOfComment(tokens, comment).find(
+			(t: Word) => t.xml_id === token.xml_id
+		);
+	}
+
+	function tokenTestForCommentStartingInTextContainer(
+		comment: Comment,
+		token: Word,
+		tokens: Word[]
+	) {
+		return dropTokensUntilStartOfComment(tokens, comment).find(
+			(t: Word) => t.xml_id === token.xml_id
 		);
 	}
 
@@ -31,21 +85,22 @@
 		textContainer.comments
 			?.filter((c) => !c.ctsUrn.tokens.some((t: string | undefined) => Boolean(t)))
 			.filter((c) => ctsUrn.hasEqualStart(c.ctsUrn)) || [];
-	$: tokens = textContainer.words.map((w) => {
+	$: tokens = textContainer.words.map((w, _index, allWords) => {
 		return {
 			...w,
 			comments: textContainer.comments
 				?.filter((c) => c.ctsUrn.tokens.some((t: string | undefined) => Boolean(t)))
 				.filter((c) => {
 					const commentUrn = new CTS_URN(c.ctsUrn.__urn);
+
 					// comment only applies to this container
 					if (isCommentContainedByTextContainer(c)) {
-						return tokenTestForCommentContainedByTestContainer(c, w);
+						return tokenTestForCommentContainedByTextContainer(c, w, allWords);
 					}
 
 					// comment starts on this container
 					if (ctsUrn.hasEqualStart(c.ctsUrn)) {
-						return parseInt(c.start_offset || '') <= w.offset;
+						return tokenTestForCommentStartingInTextContainer(c, w, allWords);
 					}
 
 					// comment fully contains this container
@@ -55,7 +110,7 @@
 
 					// comment ends on this container
 					if (ctsUrn.hasEqualEnd(c.ctsUrn)) {
-						return parseInt(c.end_offset || '') >= w.offset;
+						return tokenTestForCommentEndingInTextContainer(c, w, allWords);
 					}
 
 					return false;

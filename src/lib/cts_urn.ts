@@ -1,4 +1,23 @@
 const STEPHANUS_BEKKER_REGEX = /((?<book>\d+)\.)?(?<page>\d+)(?<column>[ABCDE])/i;
+const TOKEN_REGEX = /(?<token>\p{Letter}+)(\[(?<index>\d+)\])?/iu;
+
+
+class CTS_Token {
+    token: string | undefined;
+    index: number | undefined;
+
+    constructor(s: string) {
+        const parsed = TOKEN_REGEX.exec(s);
+
+        this.token = parsed?.groups?.token;
+
+        if (parsed?.groups?.index) {
+            this.index = parseInt(parsed.groups.index);
+        } else {
+            this.index = 1;
+        }
+    }
+}
 
 export default class CTS_URN {
     __urn: string;
@@ -11,7 +30,7 @@ export default class CTS_URN {
     exemplar?: string;
     citations: string[] = [];
     integerCitations: number[][] = [];
-    tokens: string[] = [];
+    tokens: (CTS_Token | undefined)[] = [];
 
     constructor(urn: string) {
         const [_urn_s, _cts, collection, workComponent, passageComponent] = urn.split(':');
@@ -34,7 +53,13 @@ export default class CTS_URN {
     setPassages(passageComponent: string) {
         this.citations = passageComponent.split('-').map((p) => p.split('@')[0]);
         this.integerCitations = this.citations.map(citationToInteger);
-        this.tokens = passageComponent.split('-').map((p) => p.split('@')[1]);
+        this.tokens = passageComponent.split('-').map((p) => {
+            const maybeToken = p.split('@')[1];
+
+            if (maybeToken) {
+                return new CTS_Token(maybeToken);
+            }
+        });
     }
 
     contains(ctsUrn: CTS_URN) {
@@ -80,7 +105,8 @@ export default class CTS_URN {
             passageComponent: this.passageComponent,
             citations: this.citations,
             integerCitations: this.integerCitations,
-            tokens: this.tokens,
+            tokens: this.tokens.map(t => t && t.token),
+            tokenIndexes: this.tokens.map(t => t && t.index),
             __urn: this.__urn
         };
     }

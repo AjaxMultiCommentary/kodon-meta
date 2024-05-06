@@ -20,6 +20,7 @@ export type Word = {
     offset: number;
     text: string;
     xml_id: string;
+    urn_index: number;
 };
 
 export type TextElement = {
