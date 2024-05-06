@@ -278,7 +278,8 @@ defmodule EditionsIngestion do
       w = %{
         xml_id: "word_index_#{index + word_count}",
         offset: offset,
-        text: word
+        text: word,
+        urn_index: Enum.count(ws, fn w -> w.text == word end) + 1
       }
 
       %{offset: offset + String.length(word), current_text: right, words: [w | ws]}
