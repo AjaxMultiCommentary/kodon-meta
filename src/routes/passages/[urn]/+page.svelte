@@ -6,7 +6,7 @@
 	import CollapsibleComment from '$lib/components/CollapsibleComment.svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import { marked } from 'marked';
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 
 	export let data;
 
@@ -28,7 +28,7 @@
 		highlightComments(e.detail);
 	}
 
-	function highlightComments(commentsToHighlight: string[]) {
+	async function highlightComments(commentsToHighlight: string[]) {
 		let foundComment: Comment | undefined;
 
 		comments = comments.map((comment: Comment) => {
@@ -50,7 +50,12 @@
 		});
 
 		if (foundComment && foundComment.citable_urn) {
-			document.getElementById(foundComment.citable_urn)?.scrollIntoView({ behavior: 'smooth' });
+			await tick();
+
+			setTimeout(() => {
+				// @ts-ignore
+				document.getElementById(foundComment.citable_urn)?.scrollIntoView({ behavior: 'smooth' });
+			}, 200);
 		}
 	}
 
