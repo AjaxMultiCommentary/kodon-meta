@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { Comment, TextContainer, Word } from '$lib/types';
 
-	// @ts-expect-error
 	import _ from 'lodash';
 	import { createEventDispatcher } from 'svelte';
 

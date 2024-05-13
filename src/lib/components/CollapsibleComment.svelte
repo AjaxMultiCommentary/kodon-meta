@@ -3,10 +3,10 @@
 	import IIIFViewer from './IIIFViewer.svelte';
 
 	export let comment: Comment;
-	export let isOpen = false;
 
 	$: creators = comment.commentaryAttributes.creators as Author[];
 	$: isHighlighted = comment.isHighlighted;
+	$: isOpen = isHighlighted;
 	$: showIIIFViewer = false;
 
 	function citation(comment: Comment) {
@@ -21,15 +21,19 @@
 		return `v. ${integerCitations[0].join('')}`;
 	}
 
-	function toggleDetails(e: Event) {
+	function toggleDetails(_e: Event) {
 		isOpen = !isOpen;
+
+		if (!isOpen) {
+			isHighlighted = false;
+		}
 	}
 </script>
 
 <div
 	class="border-2 collapse collapse-arrow rounded-sm mb-2"
-	class:border-secondary={isHighlighted}
-	class:collapse-open={isOpen || isHighlighted}
+	class:border-secondary={isOpen && isHighlighted}
+	class:collapse-open={isOpen}
 	id={comment.citable_urn}
 >
 	<div
