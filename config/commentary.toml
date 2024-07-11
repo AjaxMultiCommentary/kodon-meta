@@ -1,59 +1,62 @@
 title = "_Ajax_ Multi-Commentary"
 description = "A digital platform for the comparative analysis of commentaries on Sophocles’ _Ajax_"
+bibliographies_directory = "bibliographies"
+commentaries_directory = "commentaries"
+editions_directory = "out/editions"
 
-[[table_of_contents]]    
-label = "Prologue" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:1-133" 
+[[table_of_contents]]
+label = "Prologue"
+urn = "urn:cts:greekLit:tlg0011.tlg003:1-133"
 ref = "vv. 1-133"
 
 [[table_of_contents]]
-label = "*Parodos*" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:144-200" 
+label = "*Parodos*"
+urn = "urn:cts:greekLit:tlg0011.tlg003:144-200"
 ref = "vv. 144-200"
 
 [[table_of_contents]]
-label = "First episode" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:201-595" 
+label = "First episode"
+urn = "urn:cts:greekLit:tlg0011.tlg003:201-595"
 ref = "vv. 201-595"
 
 [[table_of_contents]]
-label = "First *stasimon*" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:596-645" 
+label = "First *stasimon*"
+urn = "urn:cts:greekLit:tlg0011.tlg003:596-645"
 ref = "vv. 596-645"
 
 [[table_of_contents]]
-label = "Second episode" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:646-692" 
+label = "Second episode"
+urn = "urn:cts:greekLit:tlg0011.tlg003:646-692"
 ref = "vv. 646-692"
 
 [[table_of_contents]]
-label = "Second *stasimon*" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:693-718" 
+label = "Second *stasimon*"
+urn = "urn:cts:greekLit:tlg0011.tlg003:693-718"
 ref = "vv. 693-718"
 
 [[table_of_contents]]
-label = "Third episode" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:719-865" 
+label = "Third episode"
+urn = "urn:cts:greekLit:tlg0011.tlg003:719-865"
 ref = "vv. 719-865"
 
 [[table_of_contents]]
-label = "*Epiparodos* and *kommos*" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:866-973" 
+label = "*Epiparodos* and *kommos*"
+urn = "urn:cts:greekLit:tlg0011.tlg003:866-973"
 ref = "vv. 866-973"
 
 [[table_of_contents]]
-label = "Fourth episode" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:974-1184" 
+label = "Fourth episode"
+urn = "urn:cts:greekLit:tlg0011.tlg003:974-1184"
 ref = "vv. 974-1184"
 
 [[table_of_contents]]
-label = "Third *stasimon*" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:1185-1222" 
+label = "Third *stasimon*"
+urn = "urn:cts:greekLit:tlg0011.tlg003:1185-1222"
 ref = "vv. 1185-1222"
 
 [[table_of_contents]]
-label = "*Exodos*" 
-urn = "urn:cts:greekLit:tlg0011.tlg003:1223-1420" 
+label = "*Exodos*"
+urn = "urn:cts:greekLit:tlg0011.tlg003:1223-1420"
 ref = "vv. 1223-1420"
 
 [[editions]]

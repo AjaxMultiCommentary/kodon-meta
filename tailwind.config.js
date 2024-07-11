@@ -1,6 +1,11 @@
+import { join } from 'node:path';
+
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: [
+		'./src/**/*.{html,js,svelte,ts}',
+		join(require.resolve('kodon'), '../**/*.{html,js,svelte,ts}')
+	],
 	daisyui: {
 		themes: ['corporate']
 	},
