@@ -1,0 +1,3544 @@
+[
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q118954375"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "fr",
+            "type": "literal",
+            "value": "Aïas / Ajax - Sophocle"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Paul Demont"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "2022"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Paris"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": "https://www.lesbelleslettres.com/livre/9782251452777/aias-ajax"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q122238739"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Plays of Sophocles: Commentaries"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Jan Coenraad Kamerbeek"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1953"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Leiden"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "L'Aiace"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Franco Ferrari"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1974"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Loescher"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123464638"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "fr",
+            "type": "literal",
+            "value": "Les tragédies de Sophocle"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Édouard Tournier"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1886"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Hachette"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Paris"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/lestragdiesdeso00tourgoog"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123679673"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Sophokles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Friedrich Wilhelm Schneidewin"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1853"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Weidmannsche Buchhandlung"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Leipzig"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": "https://archive.org/details/sophokle1v3soph"
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/sophokle1v3soph"
+        },
+        "volume": {
+            "type": "literal",
+            "value": "1"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123679674"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Lewis Campbell"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1881"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Oxford University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": "http://archive.org/details/cu31924087948174"
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/cu31924087948174"
+        },
+        "volume": {
+            "type": "literal",
+            "value": "2"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123679676"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "la",
+            "type": "literal",
+            "value": "Sophoclis Aiax"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Johann Gottfried Jakob Hermann"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1851"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Q123760487"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Leipzig"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123679677"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophocles Ajax"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "William Bedell Stanford"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1979"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Arno Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "New York City"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123679678"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "Tragedie e frammenti di Sofocle"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Guido Paduano"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1982"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "UTET"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Turin"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702058"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophoclean tragedy"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Maurice Bowra"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1944"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Oxford University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702059"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "Studi sul teatro greco"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Vittorio De Falco"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1958"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Q123758282"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Naples"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702060"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Göttliches und menschliches Wissen bei Sophokles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Hans Diller"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1950"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Lipsius & Tischer"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Kiel"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702061"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophocles and Pericles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Victor Ehrenberg"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1954"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Blackwell Publishing"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702062"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greek tragedy"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "H. D. F. Kitto"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1961"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Methuen Publishing"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "London"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702063"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The heroic temper. Studies in Sophoclean tragedy"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Bernard Knox"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1964"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "University of California Press/Cambridge University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Los Angeles, London, Berkeley"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702064"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Die tragische Dichtung der Hellenen"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Albin Lesky"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1972"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Vandenhoeck & Ruprecht"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Göttingen"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702065"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "Sofocle"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Antonio Maddalena"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1963"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "G. Giappichelli editore"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Turin"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702066"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "Sofocle"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Gennaro Perrotta"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1935"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Principato (Publishing House)"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Milan, Messina"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702067"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Die griechische Tragödie"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Max Pohlenz"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1954"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Vandenhoeck & Ruprecht"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Göttingen"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702068"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Sophokles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Karl Reinhardt"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1947"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Verlag Vittorio Klostermann"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Frankfurt"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702069"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Sophokles und die perikleische Politik"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Fritz Schachermeyr"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1960"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "79"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Wiener Studien"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "45–64"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702070"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Antike und moderne Tragödie"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Kurt von Fritz"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1962"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "De Gruyter"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Berlin"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702072"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Ajax of Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857, http://www.wikidata.org/entity/Q123679677"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Sinclair MacLardy Adams"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1955"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "9"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Phoenix"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "93-110"
+        },
+        "issue": {
+            "type": "literal",
+            "value": "3"
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/1086326"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702073"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "fr",
+            "type": "literal",
+            "value": "Les quatre monologues d’Ajax et leur signification dramatique"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Ignacio Errandonea"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1958"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "26"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Études Classiques"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "21-40"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702074"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Ajax of Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Bernard Knox"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1961"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "65"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Harvard Studies in Classical Philology"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "1–37"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702075"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "L'unità dell’Aiace di Sofocle"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Lydia Massa Positano"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1946"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Q123758282"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Naples"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702076"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Die Tragik des Aias"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Martin Sicherl"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1970"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "98"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Hermes"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "14–37"
+        },
+        "issue": {
+            "type": "literal",
+            "value": "1"
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/4475625"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702077"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophocles Ajax: his madness and transformation"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Michael Simpson"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1969"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Johns Hopkins University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Baltimore"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "2"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Arethusa"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "88-103"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702078"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Studies in the Manuscript Tradition of the Tragedies of Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Alexander Turyn"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1952"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "University of Illinois Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Urbana"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702079"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "la",
+            "type": "literal",
+            "value": "Marginalia scaenica"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "John Jackson"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1955"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Oxford University Press/Geoffrey Cumberledge"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "London, Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702080"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The lyric metres of greek drama"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Amy Marjorie Dale"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1968"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Cambridge University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702081"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "La metrica dei Greci"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Bruno Gentili"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1951"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "D'Anna"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Messina"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702082"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "und",
+            "type": "literal",
+            "value": "Greek metre"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Paul Maas"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1962"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Oxford University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702083"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "fr",
+            "type": "literal",
+            "value": "L’épithète ornementale dans Eschyle, Sophocle et Euripide"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Leif Bergson"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1956"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Lundequistska bokhandeln"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Uppsala"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702084"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The style of Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Frank Russell Earp"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1944"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Cambridge University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Cambridge"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702085"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "General reflection in tragic rhesis"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Holger Friis Johansen"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1959"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Levin & Munksgaard"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Copenhagen"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702087"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Medical Terminology in Tragedy"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Harold William Miller"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1944"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "85"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Transactions of the American Philological Association"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "156-167"
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/283316"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702088"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Colloquial Expressions in Aeschylus and Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Philip Theodore Stevens"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1945"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "39"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Classical Quarterly"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "95-105"
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/637018"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702089"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "fr",
+            "type": "literal",
+            "value": "Sophocle"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": "http://www.wikidata.org/entity/Q122238857"
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Alphonse Dain"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1958"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Les Belles Lettres"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Paris"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "2"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123702090"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "la",
+            "type": "literal",
+            "value": "Sophoclis fabulae"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Alfred Chilton Pearson"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1924"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Oxford University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123744617"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Wissen und Erkennen bei Sophokles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Marina Coray"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1993"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Friedrich Reinhardt Verlag"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Berlin, Basel"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123744628"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Ajax and Tekmessa: A Cup by the Brygos Painter in the Bareiss Collection"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Mark I. Davies"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1973"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "16"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Antike Kunst"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "60-70"
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/41318453"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123744697"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophocles’ Ajax: the death and burial of a hero"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Jennifer R. March"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1991"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "38"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Bulletin of the Institute of Classical Studies"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "1-36"
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/43646729"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123744719"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Vision and Stagecraft in Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "David Seale"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1982"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "University of Chicago Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Chicago"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "269"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748854"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophocles the playwright"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Sinclair MacLardy Adams"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1957"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "University of Toronto Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Toronto"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748863"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "A Lexicon of the Homeric Dialect"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Richard John Cunliffe"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1924"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Blackie and Son"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "London, Mumbai, Glasgow"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/lexiconofhomeric0000rich"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748871"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "it",
+            "type": "literal",
+            "value": "ita"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Vittorio De Falco"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1928"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Federico Sangiovanni & Figlio"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Naples"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748873"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Imagery of Sophocles’ Antigone"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Robert F. Goheen"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1951"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Princeton University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/10.2307/j.ctt1m3223r"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748874"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Moira: Fate, Good, and Evil in Greek Thought"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "William Chase Greene"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1944"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Harvard University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748875"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Odysseus in the 'Ajax'"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "W. K. C. Guthrie"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1947"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "16"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greece and Rome"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "115-119"
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/642088"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748876"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Greek Tragedy"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Joseph Edward Harry"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1933"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Columbia University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "New York City"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748878"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "doctoral thesis"
+        },
+        "title": {
+            "xml:lang": "nl",
+            "type": "literal",
+            "value": "Studien over Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Jan Coenraad Kamerbeek"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1934"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Amsterdam"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748881"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Geschichte der griechischen Literatur"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Albin Lesky"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1950"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Bern"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748883"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "fr",
+            "type": "literal",
+            "value": "Sophocle : essai sur le heros tragique"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Georges Méautis"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1957"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Éditions Albin Michel"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Paris"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748886"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophocles and Greek Pessimism"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Johannes Cornelis Opstelten"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1952"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "North-Holland Publishing Company"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Amsterdam"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748887"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Actors’ Interpolations in Greek Tragedy"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Denys Page"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1934"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Oxford University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748888"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "History and the Homeric Iliad"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Denys Page"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1959"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "University of California Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Los Angeles, Berkeley"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748896"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The theatre of Dionysus"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Arthur Wallace Pickard-Cambridge"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1946"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Oxford University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/trent_0116405916986"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748897"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The dramatic festivals of Athens"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Arthur Wallace Pickard-Cambridge"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1953"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Oxford University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748898"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Griechische Mythologie"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Ludwig Preller"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1894"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Weidmannsche Buchhandlung"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Berlin"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748899"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Der grosse Aias"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Peter von der Mühll"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1930"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Friedrich Reinhardt Verlag"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Basel"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748901"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Omitted Augment in the Messengers’ Speeches of Greek Tragedy"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Leif Bergson"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1953"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "51"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Eranos"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "121–128"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748902"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Episches in den ῥήσεις ἀγγελικαί’"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Leif Bergson"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1959"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "102"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Rheinisches Museum für Philologie"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "9–39"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748903"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Das Alpha impurum und die tragische Kunstsprache"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Gudmund Björck"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1950"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Almqvist & Wiksell"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Uppsala"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748908"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Critical notes on Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Alfred Chilton Pearson"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1922"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Proceedings of the Cambridge Philological Society"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "14–28"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748909"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "scholarly article"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Dramatic Art of Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Chandler Rathfon Post"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1912"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "23"
+        },
+        "published_in_label": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Harvard Studies in Classical Philology"
+        },
+        "page_range": {
+            "type": "literal",
+            "value": "71–121"
+        },
+        "jstor_url": {
+            "type": "uri",
+            "value": "https://www.jstor.org/stable/310448"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748912"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Uber das Homerische in Sophokles’ Aias"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": ""
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1890"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Waidhofen an der Thaya"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748914"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The wisdom of Sophocles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "John Tresidder Sheppard"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1947"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "George Allen & Unwin Limited"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "London"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748916"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Aeschylus and sophocles, their work and influence"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "John Tresidder Sheppard"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1927"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Longman"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "New York City"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/aeschylussophocl0000jtsh"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748919"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The Discovery of the Mind"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Bruno Snell"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1953"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Blackwell Publishing"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Oxford"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/discoveryofmindg00sneluoft"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748920"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Lexikon des frühgriechischen Epos"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Bruno Snell, Hans Joachim Mette"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1955"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Vandenhoeck & Ruprecht"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748921"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "The ulysses theme"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "William Bedell Stanford"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1964"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Barnes & Noble"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "New York City"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/ulyssesthemestud00stan"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748929"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Vorlesungen über Syntax"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Jacob Wackernagel"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1926"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Basel"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/vorlesungenbersy0000wack"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748932"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Sophokles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Heinrich Weinstock"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1948"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "B. G. Teubner Verlag"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Leipzig"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748933"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Homer and the Heroic Tradition"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Cedric H. Whitman"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1958"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Harvard University Press"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Cambridge"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748934"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Griechische Verskunst"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Ulrich von Wilamowitz-Moellendorff"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1921"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Weidmannsche Buchhandlung"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Berlin"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/griechischeversk00wila"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123748936"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "Sophocles' dramas"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": ""
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1953"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "J. M. Dent and Sons Ltd."
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "London"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "internet_archive_url": {
+            "type": "uri",
+            "value": "https://archive.org/details/sophoclesdramas0000geor"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123916470"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "de",
+            "type": "literal",
+            "value": "Sophokles"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Friedrich Wilhelm Schneidewin, Ludwig Radermacher, August Nauck"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1913"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": "Weidmannsche Buchhandlung"
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": "Berlin"
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "1"
+        }
+    },
+    {
+        "subject": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q123916472"
+        },
+        "item_typeLabel": {
+            "xml:lang": "en",
+            "type": "literal",
+            "value": "version, edition or translation"
+        },
+        "title": {
+            "xml:lang": "la",
+            "type": "literal",
+            "value": "Sophoclis fabulae: Aiax - Electra"
+        },
+        "citedBy": {
+            "type": "literal",
+            "value": ""
+        },
+        "authors": {
+            "type": "literal",
+            "value": "Aristide Colonna"
+        },
+        "pubYear": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "type": "literal",
+            "value": "1975"
+        },
+        "publishers": {
+            "type": "literal",
+            "value": ""
+        },
+        "publicationPlaces": {
+            "type": "literal",
+            "value": ""
+        },
+        "full_text_urls": {
+            "type": "literal",
+            "value": ""
+        },
+        "volume": {
+            "type": "literal",
+            "value": "1"
+        }
+    }
+]

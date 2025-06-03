@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@plugin 'daisyui' {
+	themes: 'corporate';
+}
+
+@source '../node_modules/kodon';
+
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-sans: Inter, Arial;
+}
