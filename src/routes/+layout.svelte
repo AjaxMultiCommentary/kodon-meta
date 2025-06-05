@@ -15,12 +15,12 @@
 </script>
 
 <svelte:head>
-	<title>AjMC</title>
+	<title>Home</title>
 </svelte:head>
 
 <div>
 	<Header title={data.title} staticPages={data.staticPages}>
-		<a href="{base}/passages" class="btn btn-link">Multi-Commentary</a>
+		<a href="{base}/passages" class="btn btn-link">Meta-Commentary</a>
 	</Header>
 	<main class="px-4">
 		{@render children?.()}

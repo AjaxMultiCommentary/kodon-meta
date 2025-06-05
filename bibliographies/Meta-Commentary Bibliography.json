@@ -1,0 +1,70 @@
+[
+	{
+		"id": "nordquistSalpinxGreekCult1996",
+		"type": "article-journal",
+		"abstract": "The salpinx is not often treated by scholars of ancient Greek music, because it was mainly a military instrument. The instrument was usually not used for musical purposes, only for giving signals. In Greece the salpinx is known from the 8th century onwards. The Greek salpinx was an aerophone, usually made of bronze, and consisted of an 80 to 120 cm long, straight, tube with cylindrical bore, and with a conical or more often bell-shaped final, kodon, which could be made of bone. The bone had to be fired in order to get the right acoustic qualities, according to Aristotle. Salpinx is usually translated as \"trumpet\", but the type of sound generator it may have had has been discussed.",
+		"container-title": "Scripta Instituti Donneriani Aboensis",
+		"DOI": "10.30674/scripta.67232",
+		"ISSN": "2343-4937",
+		"language": "en",
+		"license": "Copyright (c) 1996 Gullög Nordquist",
+		"page": "241-256",
+		"source": "journal.fi",
+		"title": "The Salpinx in Greek Cult",
+		"URL": "https://journal.fi/scripta/article/view/67232",
+		"volume": "16",
+		"author": [
+			{
+				"family": "Nordquist",
+				"given": "Gullög"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					6,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1996",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "spinetoInterrompereQuotidianoCostruzione2005",
+		"type": "book",
+		"collection-number": "690",
+		"collection-title": "Di fronte e attraverso",
+		"edition": "1. ed. italiana",
+		"event-place": "Milano",
+		"ISBN": "978-88-16-40690-2",
+		"language": "ita",
+		"number-of-pages": "214",
+		"publisher": "Jaca book",
+		"publisher-place": "Milano",
+		"source": "K10plus ISBN",
+		"title": "Interrompere il quotidiano: la costruzione del tempo nell'esperienza religiosa",
+		"title-short": "Interrompere il quotidiano",
+		"editor": [
+			{
+				"family": "Spineto",
+				"given": "Natale"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	}
+]

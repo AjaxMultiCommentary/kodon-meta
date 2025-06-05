@@ -1,8 +1,14 @@
-title = "Ajax Meta-Commentary"
+title = "Home"
 description = "A commentary on commentaries on Sophocles’ _Ajax_"
 bibliographies_directory = "bibliographies"
 commentaries_directory = "commentaries"
 editions_directory = "out/editions"
+home_page = "pages/home.md"
+
+[[static_pages]]
+title = "Bibliography"
+path = "/bibliography"
+file_path = ""
 
 [[static_pages]]
 title = "About"
