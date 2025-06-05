@@ -1,4 +1,4 @@
-import{c as be}from"./DYPycDIx.js";var ve={exports:{}},De=ve.exports,Re;function Oe(){return Re||(Re=1,function(Ee){//! openseadragon 4.1.1
+import{c as be}from"./C1pUlLhs.js";var ve={exports:{}},De=ve.exports,Re;function Oe(){return Re||(Re=1,function(Ee){//! openseadragon 4.1.1
 //! Built on 2024-04-01
 //! Git commit: v4.1.1-0-f90d9814
 //! http://openseadragon.github.io
