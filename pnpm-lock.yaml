@@ -22,7 +22,7 @@ importers:
         version: 4.0.2
       kodon:
         specifier: github:AjaxMultiCommentary/kodon
-        version: https://codeload.github.com/AjaxMultiCommentary/kodon/tar.gz/db91dbfa1cf3c05e216c21d923663c4e1a7429dc(@sveltejs/kit@2.21.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.33.14)(vite@6.3.5(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.33.14)(vite@6.3.5(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.33.14)
+        version: https://codeload.github.com/AjaxMultiCommentary/kodon/tar.gz/b69472c01dae190ab400a887c739c285912de26a(@sveltejs/kit@2.21.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.33.14)(vite@6.3.5(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.33.14)(vite@6.3.5(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.33.14)
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -1169,8 +1169,8 @@ packages:
   known-css-properties@0.35.0:
     resolution: {integrity: sha512-a/RAk2BfKk+WFGhhOCAYqSiFLc34k8Mt/6NWRI4joER0EYUzXIcFivjjnoD3+XU1DggLn/tZc3DOAgke7l8a4A==}
 
-  kodon@https://codeload.github.com/AjaxMultiCommentary/kodon/tar.gz/db91dbfa1cf3c05e216c21d923663c4e1a7429dc:
-    resolution: {tarball: https://codeload.github.com/AjaxMultiCommentary/kodon/tar.gz/db91dbfa1cf3c05e216c21d923663c4e1a7429dc}
+  kodon@https://codeload.github.com/AjaxMultiCommentary/kodon/tar.gz/b69472c01dae190ab400a887c739c285912de26a:
+    resolution: {tarball: https://codeload.github.com/AjaxMultiCommentary/kodon/tar.gz/b69472c01dae190ab400a887c739c285912de26a}
     version: 0.0.1
     peerDependencies:
       '@sveltejs/kit': ^2.21.0
@@ -2771,7 +2771,7 @@ snapshots:
 
   known-css-properties@0.35.0: {}
 
-  kodon@https://codeload.github.com/AjaxMultiCommentary/kodon/tar.gz/db91dbfa1cf3c05e216c21d923663c4e1a7429dc(@sveltejs/kit@2.21.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.33.14)(vite@6.3.5(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.33.14)(vite@6.3.5(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.33.14):
+  kodon@https://codeload.github.com/AjaxMultiCommentary/kodon/tar.gz/b69472c01dae190ab400a887c739c285912de26a(@sveltejs/kit@2.21.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.33.14)(vite@6.3.5(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.33.14)(vite@6.3.5(@types/node@20.17.57)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.33.14):
     dependencies:
       '@citation-js/core': 0.7.18
       '@citation-js/plugin-csl': 0.7.18(@citation-js/core@0.7.18)
